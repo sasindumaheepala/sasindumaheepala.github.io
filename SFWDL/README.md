@@ -1,4 +1,4 @@
-# Styled Functional Web Development Language SFWDML
+# Styled Functional Web Development Language SFWDL
 
 #
 
