@@ -9,17 +9,17 @@ Embed the SFWDL.js file into your HTML file.
 <script type="text/javascript" src="https://sasindumaheepala.github.io/SFWDL/SFWDL.js"></script>
 ```
 #
-### Embeding JavaScript files
-
-The following example shows how you can embed JavaScript files into your HTML file, either from either the root directory or the current directory.
+### Embeding HTML files
+#
+The following example shows how you can embed HTML files into your HTML file, either from either the root directory or the current directory.
 ```HTML
-<scripts>
-  /script1.js,
-  /folder/script2.js,
-  js/script3.js,
-  ../script4.js,
-  ./script5.js
-</script>
+<styles>
+  /file1.html,
+  /folder/file2.html,
+  css/file3.html,
+  ../file4.html,
+  ./file5.html
+</styles>
 ```
 #
 #
@@ -36,17 +36,16 @@ The following example shows how you can embed CSS files into your HTML file, eit
 </styles>
 ```
 #
-#
-### Embeding HTML files
+### Embeding JavaScript files
 
-The following example shows how you can embed HTML files into your HTML file, either from either the root directory or the current directory.
+The following example shows how you can embed JavaScript files into your HTML file, either from either the root directory or the current directory.
 ```HTML
-<styles>
-  /file1.html,
-  /folder/file2.html,
-  css/file3.html,
-  ../file4.html,
-  ./file5.html
-</styles>
+<scripts>
+  /script1.js,
+  /folder/script2.js,
+  js/script3.js,
+  ../script4.js,
+  ./script5.js
+</script>
 ```
 #
