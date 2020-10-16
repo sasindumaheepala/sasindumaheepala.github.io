@@ -15,7 +15,7 @@ The following example shows how you can embed JavaScript files into your HTML fi
 ```HTML
 <scripts>
   /script1.js,
-  /file/script2.js,
+  /folder/script2.js,
   js/script3.js,
   ../script4.js,
   ./script5.js
@@ -29,7 +29,7 @@ The following example shows how you can embed CSS files into your HTML file, eit
 ```HTML
 <styles>
   /style1.css,
-  /file/style2.css,
+  /folder/style2.css,
   css/style3.css,
   ../style4.css,
   ./style5.css
@@ -42,11 +42,11 @@ The following example shows how you can embed CSS files into your HTML file, eit
 The following example shows how you can embed HTML files into your HTML file, either from either the root directory or the current directory.
 ```HTML
 <styles>
-  /style1.html,
-  /file/style2.html,
-  css/style3.html,
-  ../style4.html,
-  ./style5.html
+  /file1.html,
+  /folder/file2.html,
+  css/file3.html,
+  ../file4.html,
+  ./file5.html
 </styles>
 ```
 #
