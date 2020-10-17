@@ -61,10 +61,22 @@ The following example shows how you can embed JavaScript files into your HTML fi
     <a href="#About">About Us</a>
     <a href="#Products">Products</a>
     <a href="#Contact">Contact Us</a>
-    <form nav-form="search" form-type="search-bar" search-placeholder="Search" autocomplete="complete"></form>
   </navigation>
 </nav>
 ```
+
+##### Additional Features
+
+For a search bar in the navigation insert this form into the navigation:
+```HTML
+...
+<navigation>
+  ...
+  <form nav-form="search" form-type="search-bar" search-placeholder="Search"></form>
+</navigation>
+...
+```
+```nav-form``` attribute is for what type of form you want. ```search``` must be put in there for a search bar like used in the example above.
 
 #
 You can choose from a variety of navbar themes.
@@ -81,7 +93,7 @@ You can choose from a variety of navbar themes.
     <a href="#About">About Us</a>
     <a href="#Products">Products</a>
     <a href="#Contact">Contact Us</a>
-    <form nav-form="search" form-type="search-bar" search-placeholder="Search" autocomplete="complete"></form>
+    <form nav-form="search" form-type="search-bar" search-placeholder="Search"></form>
   </navigation>
 </nav>
 ```
