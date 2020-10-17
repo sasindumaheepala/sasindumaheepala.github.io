@@ -77,7 +77,16 @@ For a search bar in the navigation insert this form into the navigation:
 ...
 ```
 ```nav-form``` attribute is for what type of form you want. ```search``` must be put in there for a search bar like used in the example above.
-
+```form-type``` attribute is for a future feature coming to the navigation bar, which either allows the option of an animated search icon or a search bar, ```search-bar```, as specified in the example above.
+```search-placeholder``` attribute is for the placceholder used in the search form.
+#
+#### Text Color
+```color``` attributes can be used for ```<a></a>``` to style it, like in the example below.
+```HTML
+...
+<a href="#" color="blue">Blue Link</a>
+...
+```
 #
 You can choose from a variety of navbar themes.
 #
