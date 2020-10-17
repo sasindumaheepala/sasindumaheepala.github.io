@@ -22,7 +22,6 @@ The following example shows how you can embed HTML files into your HTML file, ei
 </styles>
 ```
 #
-#
 ### Embeding CSS files
 
 The following example shows how you can embed CSS files into your HTML file, either from either the root directory or the current directory.
@@ -49,3 +48,21 @@ The following example shows how you can embed JavaScript files into your HTML fi
 </script>
 ```
 #
+### Styled Navbars
+
+You can choose from a variety of navbar themes.
+**Current themes are:**
+***Modern***
+```HTML
+<nav bg-color="white" color="black" size="1" nav="modern">
+  <brand>Navbar</brand>
+  <menu color="black"></menu>
+  <navigation>
+    <a href="#Home" active="true">Home</a>
+    <a href="#About">About Us</a>
+    <a href="#Products">Products</a>
+    <a href="#Contact">Contact Us</a>
+    <form nav-form="search" form-type="search-bar" search-placeholder="Search" autocomplete="complete"></form>
+  </navigation>
+</nav>
+```
