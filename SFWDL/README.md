@@ -1,5 +1,5 @@
 # Styled Functional Web Development Language SFWDL
->***NOTE:*** This Version of the Styled Functional Web Development Language is still being developed and tested.
+>***NOTE:*** This Version of the Styled Functional Web Development Language is still being developed and tested. Some components may not be functional.
 #
 
 ## Usage
